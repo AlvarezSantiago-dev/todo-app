@@ -23,7 +23,7 @@ Esta es una aplicación básica de lista de tareas (Todo App) desarrollada con R
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/todo-app.git
+   git clone https://github.com/AlvarezSantiago-dev/todo-app.git
    cd todo-app
    ```
 
