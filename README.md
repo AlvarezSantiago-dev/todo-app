@@ -1,12 +1,69 @@
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Esta es una aplicación básica de lista de tareas (Todo App) desarrollada con React. Permite a los usuarios agregar, marcar como completadas y eliminar tareas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características
 
-## Expanding the ESLint configuration
+- Agregar nuevas tareas con una fecha de creación.
+- Marcar tareas como completadas.
+- Eliminar tareas completadas.
+- Validación para evitar agregar tareas vacías.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías utilizadas
+
+- React
+- CSS Modules
+- React Icons
+- Fontsource
+
+## Instalación y uso
+
+1. Clonar el repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/todo-app.git
+   cd todo-app
+   ```
+
+2. Instalar las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+3. Ejecutar la aplicación:
+
+   ```bash
+   npm run dev
+   ```
+
+## Estructura del proyecto
+
+```
+.
+├── src
+│   ├── components
+│   │   ├── TodoItem.jsx
+│   │   ├── todoitem.module.css
+│   ├── App.jsx
+│   ├── main.jsx
+├── public
+├── package.json
+└── README.md
+```
+
+## Uso
+
+1. Escriba el nombre de la tarea en el campo de entrada.
+2. Haga clic en el botón "Agregar tarea" para guardarla.
+3. Marque la casilla para marcar una tarea como completada.
+4. Solo las tareas completadas pueden ser eliminadas haciendo clic en el icono de basura.
+
+## Mejoras futuras
+
+- Agregar persistencia con LocalStorage.
+- Implementar edición de tareas.
+- Mejorar la interfaz con animaciones y estilos adicionales.
+
